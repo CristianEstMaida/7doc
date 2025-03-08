@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #formulario {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #formulario input, #formulario select, #formulario button {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  #lista ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lista li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
