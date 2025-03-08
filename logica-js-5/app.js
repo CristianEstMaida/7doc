@@ -27,7 +27,7 @@ agregarButton.addEventListener("click", () => {
             }
 
             if (agregarMas.toLowerCase() === "no") {
-            agregarButton.disabled = true; // Deshabilitar el botón "Agregar"
+            agregarButton.disabled = true;
         }
     } else {
         alert("Por favor, ingresa el nombre del alimento.");
