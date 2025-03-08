@@ -38,7 +38,7 @@ function actualizarLista() {
     for (let categoria in listaDeCompras) {
         const listaUl = document.getElementById(categoria);
         if (listaUl) {
-            listaUl.innerHTML = ""; // Limpiar la lista
+            listaUl.innerHTML = "";
         
             listaDeCompras[categoria].forEach((alimento) => {
                 const li = document.createElement("li");
@@ -46,7 +46,6 @@ function actualizarLista() {
                 listaUl.appendChild(li);
             });
         } else {
-            // Crear una nueva lista ul si no existe
             const nuevaListaUl = document.createElement("ul");
             nuevaListaUl.id = categoria;
             const listaDiv = document.getElementById("lista");
