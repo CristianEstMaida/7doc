@@ -20,7 +20,7 @@ agregarButton.addEventListener("click", () => {
         alimentoInput.value = "";
         let agregarMas = "";
         while (agregarMas.toLowerCase() !== "si" && agregarMas.toLowerCase() !== "no") {
-            agregarMas = prompt("¿Deseas agregar otro alimento? (sí/no)");
+            agregarMas = prompt("¿Deseas agregar otro alimento? (si/no)");
                 if (agregarMas.toLowerCase() !== "si" && agregarMas.toLowerCase() !== "no") {
                     alert("Por favor, ingresa 'si' o 'no'.");
                 }
